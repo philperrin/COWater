@@ -46,7 +46,7 @@
             tableData = [];
 
         // Iterate over the JSON object
-        for (var i = 0; i < 50; i++ ) { //use this for full data-> i < feat.length; i++) {
+        for (var i = 1; i < 50; i++ ) { //use this for full data-> i < feat.length; i++) {
             tableData.push({
                 "wellId": feat[i].properties["wellId"],
 				"wellName":feat[i].properties["wellName"],
